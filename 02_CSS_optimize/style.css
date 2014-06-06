@@ -1,0 +1,65 @@
+﻿/*
+Author & Facebook: Kasiti Panthanom
+E-Mail: kasiti@cityhubs.net, comthaitip@gmail.com
+*/
+/* 
+    Created on : 15 พ.ค. 2557, 3:26:06
+    Author     : Super User
+*/
+
+body {
+    color: #333;
+	background-color: red;
+	background: url(images/bg.gif) no-repeat top right;
+}
+
+h2, p {
+    color: #333;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: #8ec63f;
+}
+
+a:hover {
+    color: #f7941d;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    letter-spacing: -.9px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+h2 a {
+    text-shadow: 1px 1px 0 #75a334;
+}
+h2 a:hover {
+    text-shadow: 1px 1px 0 #d48019;
+}
+
+.byline {
+    color: #8c8c8c;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: right;
+}
+
+q {
+    quotes: '“' '”' '‘' '’';
+}
+q:before {
+    content: '“';
+    content: open-quote;
+}
+q:after {
+    content: '”';
+    content: close-quote;
+}
+header {
+	text-shadow: 1px 1px 0 #d48019;
+}

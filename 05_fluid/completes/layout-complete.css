@@ -1,0 +1,51 @@
+
+body {
+    background: none repeat scroll 0 0 #1E1E1E;
+    color: #FFFFFF;
+    font: 100% Helvetica,Arial,sans-serif;
+}
+
+#page {
+    margin: 40px auto;
+    padding: 0 1em;
+    max-width: 61.75em;      /* 988px / 16px = 61.75em */
+}
+
+h1 {
+    margin-left: 14.575%;    /* 144px / 988px = 0.14575 */
+    width: 70.85%;           /* 700px / 988px = 0.7085 */
+}
+
+.entry h2,
+.entry .content {
+    float: right;
+    width: 85.425%;          /* 844px / 988px = 0.85425 */
+}
+.entry .info {
+    float: left;
+    width: 12.551%;          /* 124px / 988px = 0.12551 */
+}
+
+h3 {
+    font-size: 1.25em;           
+        
+}
+
+ul {
+    font-size: 0.875em;      /* 14px / 16px = 0.875em */
+}
+
+.entry .main {
+    float: left;
+    width: 82.938%;          /* 700px / 844px = 0.82938 */
+}
+
+.entry .meta {
+    float: right;
+    width: 14.692%;          /* 124px / 844px = 0.14692 */
+}
+
+.bottom .bottom1, .bottom .bottom2, .bottom .bottom3 {
+    float: left;                          /* 329px / 988px = 0.33 */
+    width: 33%;
+}

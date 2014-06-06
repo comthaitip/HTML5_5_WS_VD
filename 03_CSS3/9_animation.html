@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>9 - Animation</title>
+<style>
+@keyframes myfirst
+{
+	from {background: red;}
+	to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	from {background: red;}
+	to {background: yellow;}
+}
+
+div {
+	width: 200px;
+	height: 200px;	
+	background:red;
+	animation:myfirst 5s;
+	-webkit-animation:myfirst 5s; /* Safari and Chrome */
+}
+
+
+
+</style>
+</head>
+
+<body>
+<div>City Hubs</div>
+</body>
+</html>
